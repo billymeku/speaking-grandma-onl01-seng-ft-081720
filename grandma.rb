@@ -13,7 +13,15 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(phase)
   if phase != phase.upcase
-    ''
+    'HUH?! SPEAK UP, SONNY!'
+  elsif phase == 'I LOVE YOU GRANDMA!'
+    'I LOVE YOU TOO PUMPKIN!'
+  elsif phase == 'WHAT DID YOU EAT TODAY?'
+     'NO, NOT SINCE 1938!'
+  else phase == "WHAT?"
+     'NO, NOT SINCE 1938!'  
+  end
+end 
     
     
     
